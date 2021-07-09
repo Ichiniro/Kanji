@@ -13,7 +13,7 @@ var data = {
     // Font size of the greeting
     greeting_fontsize: "40px",
     // Foreground color of the greeting
-    greeting_fgcolor: "#79acf3",
+    greeting_fgcolor: "#4d9291",
 
     // -------------------------------------------------
     // Clock config
@@ -21,7 +21,7 @@ var data = {
     // Enable/disable clock
     clock: true,
     // Foreground color of the clock
-    clock_fgcolor: "#79acf3",
+    clock_fgcolor: "#4d9291",
     // Font size of the clock
     clock_fontsize: "20px",
 
@@ -33,7 +33,7 @@ var data = {
     // Border for the image
     image_border: "0px",
     // Color of the border
-    image_bordercolor: "#79acf3",
+    image_bordercolor: "#4d9291",
     // Filters for the image.
     image_filter: "grayscale(56%) brightness(60%)",
     // Width/height for the image
@@ -44,7 +44,7 @@ var data = {
 
     // -------------------------------------------------
     // Enable/disable site icons
-    enable_icons: false,
+    enable_icons: true,
     links_hover: true,
 
     // -------------------------------------------------
@@ -63,6 +63,6 @@ var data = {
     // startpage
     // ecosia
     // youtube
-    search_engine: "google",
+    search_engine: "duckduckgo",
 
 }
