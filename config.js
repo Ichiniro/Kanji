@@ -35,12 +35,12 @@ var data = {
     // Color of the border
     image_bordercolor: "#4d9291",
     // Filters for the image.
-    image_filter: "grayscale(56%) brightness(60%)",
+    image_filter: "grayscale(0%) brightness(100%)",
     // Width/height for the image
     image_width: "300px",
     // Image source: you can use local files, or a link
     // Ex.: image_source: "/img/kanji.jpg"
-    image_source: "https://raw.githubusercontent.com/MonoSpaceGCM/Kanji/main/img/first.jpg",
+    image_source: "https://raw.githubusercontent.com/MonoSpaceGCM/Kanji/main/img/first.png",
 
     // -------------------------------------------------
     // Enable/disable site icons
