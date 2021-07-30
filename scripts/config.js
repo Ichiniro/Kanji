@@ -126,9 +126,11 @@ document.onkeydown = function(e) {
             if (mode != "istrue") {
               localStorage.setItem("mode", "istrue");
               body.classList.add("light");
+              image.style.filter = data.image_filter;
             } else {
               localStorage.setItem("mode", null);
               body.classList.remove("light");
+              image.style.filter = "grayscale(0%) brightness(75%)";
             }
             // ctrl + m mutes the tab, this blocks this behavior
             e.preventDefault();

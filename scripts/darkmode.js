@@ -19,8 +19,10 @@ toggle.addEventListener("click", () => {
   if (mode != "istrue") { // Fix
     localStorage.setItem("mode", "istrue");
     body.classList.add("light");
+    image.style.filter = data.image_filter;
   } else {
     localStorage.setItem("mode", null);
     body.classList.remove("light");
+    image.style.filter = "grayscale(0%) brightness(75%)";
   }
 });
