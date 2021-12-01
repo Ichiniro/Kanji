@@ -29,7 +29,7 @@ var data = {
     // Change image proprieties from here
 
     // Border radius: set it to 50% to create a circle
-    image_radius: "20px",
+    image_radius: "10px",
     // Border for the image
     image_border: "0px",
     // Color of the border
@@ -37,7 +37,7 @@ var data = {
     // Filters for the image.
     image_filter: "grayscale(0%) brightness(100%)",
     // Width/height for the image
-    image_width: "300px",
+    image_width: "350px",
     // Image source: you can use local files, or a link
     // Ex.: image_source: "/img/kanji.jpg"
     image_source: "https://raw.githubusercontent.com/ichiniro/Kanji/main/img/first.png",
